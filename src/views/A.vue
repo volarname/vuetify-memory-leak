@@ -141,7 +141,7 @@ const FakeAPI = {
         const paginated = items.slice(start, end)
 
         resolve({items: paginated, total: items.length})
-      }, 500)
+      }, 100)
     })
   },
 }
